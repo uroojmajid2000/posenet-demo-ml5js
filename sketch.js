@@ -107,7 +107,7 @@ function modelLoaded() {
 function draw() {
   // images and videos(webcam)
   image(capture, 0, 0);
-  fill(255, 0, 0);
+  // fill(255, 0, 0);
 
   
   // background(100);
