@@ -107,7 +107,7 @@ function modelLoaded() {
 function draw() {
   // images and videos(webcam)
   image(capture, 0, 0);
-  // fill(255, 0, 0);
+  fill(255, 0, 0);
 
   
   // background(100);
@@ -125,6 +125,8 @@ function draw() {
 
     stroke(255, 255, 255);
     strokeWeight(5);
+
+
     for (let j = 0; j < skeleton.length; j++) {
       line(
         skeleton[j][0].position.x,
