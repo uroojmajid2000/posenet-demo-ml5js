@@ -110,7 +110,7 @@ function draw() {
   // fill(255, 0, 0);
   background(100);
   fill(255, 255, 0);
-  ellipse(width/2, height/2, 150, 150);
+  // ellipse(width/2, height/2, 150, 150);
 
   if (singlePose) {
     for (let i = 0; i < singlePose.keypoints.length; i++) {
