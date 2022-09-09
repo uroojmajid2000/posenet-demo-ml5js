@@ -23,13 +23,16 @@ function calculateAngle(a, b, c) {
 }
 
 function setup() {
-  createCanvas(1366, 768);
+  // createCanvas(1366, 768);
+  createCanvas(360, 640);
 
   let constraints = {
     video: {
       mandatory: {
-        minWidth: 1366,
-        minHeight: 768,
+        // minWidth: 1366,
+        // minHeight: 768,
+        minWidth: 360,
+        minHeight: 640,
       },
     },
   };
@@ -114,6 +117,7 @@ function draw() {
         20
       );
     }
+    
     stroke(255, 255, 255);
     strokeWeight(5);
     for (let j = 0; j < skeleton.length; j++) {
