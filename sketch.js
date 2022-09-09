@@ -106,8 +106,11 @@ function modelLoaded() {
 
 function draw() {
   // images and videos(webcam)
-  image(capture, 0, 0);
-  fill(255, 0, 0);
+  // image(capture, 0, 0);
+  // fill(255, 0, 0);
+  background(100);
+  fill(255, 255, 0);
+  ellipse(width/2, height/2, 150, 150);
 
   if (singlePose) {
     for (let i = 0; i < singlePose.keypoints.length; i++) {
@@ -117,7 +120,7 @@ function draw() {
         20
       );
     }
-    
+
     stroke(255, 255, 255);
     strokeWeight(5);
     for (let j = 0; j < skeleton.length; j++) {
