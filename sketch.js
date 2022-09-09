@@ -106,8 +106,10 @@ function modelLoaded() {
 
 function draw() {
   // images and videos(webcam)
-  // image(capture, 0, 0);
+  image(capture, 0, 0);
   // fill(255, 0, 0);
+
+  
   // background(100);
   fill(255, 255, 0);
   // ellipse(width/2, height/2, 150, 150);
